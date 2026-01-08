@@ -10,4 +10,8 @@ Previous user prompts (chronological):
 
 4) add images/AndreaCutroni_11.jpg as the portrait
 
+5) keep the prompts file updated with every new prompt
+
 (These are all user prompts prior to the request to create this file.)
+
+Note: Assistant will append new prompts to this file when asked to keep it updated.

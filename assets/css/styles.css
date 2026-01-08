@@ -2,7 +2,8 @@
   --sage: #659162;
   --terracotta: #CC7448;
 }
-body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+html{font-size: 22px}
+body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.45}
 
 /* Desktop 3-column Bento layout */
 @media (min-width: 768px){
@@ -12,13 +13,13 @@ body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
     grid-template-rows: 220px 220px 140px 120px;
     gap: 1.25rem;
     grid-template-areas:
-      "tl portrait tr"
+      "tl portrait exp"
       "projects portrait edu"
       "dig name email"
       "lang name ornament";
   }
   .area-tl{grid-area: tl}
-  .area-tr{grid-area: tr}
+  .area-exp{grid-area: exp}
   .area-projects{grid-area: projects}
   .area-portrait{grid-area: portrait}
   .area-dig{grid-area: dig}
@@ -27,4 +28,10 @@ body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
   .area-name{grid-area: name}
   .area-email{grid-area: email}
   .area-ornament{grid-area: ornament}
+}
+
+/* Top-left heading (Building Engineer & Computational Designer) sizing */
+.area-tl h2{font-size:1.25rem}
+@media (min-width: 768px){
+  .area-tl h2{font-size:1.5rem}
 }
