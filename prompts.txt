@@ -1,0 +1,13 @@
+Previous user prompts (chronological):
+
+1) the name projects have to be centered like in education
+
+2) Continuing with the personal portfolio website project, I need to add functionality to the navigation cards and create a new layout for the detail pages.
+
+1. Make Cards Clickable: Modify the existing "Work Experience," "Projects," and "Education" rectangular cards. Turn them into clickable buttons or links (<a> tags). When clicked, they should navigate to new, separate HTML pages (e.g., experience.html, projects.html, education.html).
+
+3) in the index the rectangular card of the work experience need to have the same dimensions of  the education one
+
+4) add images/AndreaCutroni_11.jpg as the portrait
+
+(These are all user prompts prior to the request to create this file.)

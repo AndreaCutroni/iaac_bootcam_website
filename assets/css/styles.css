@@ -9,7 +9,7 @@ body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helv
   .bento-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 120px 220px 140px 120px;
+    grid-template-rows: 220px 220px 140px 120px;
     gap: 1.25rem;
     grid-template-areas:
       "tl portrait tr"
