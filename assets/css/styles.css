@@ -1,0 +1,30 @@
+:root{
+  --sage: #659162;
+  --terracotta: #CC7448;
+}
+body{font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+
+/* Desktop 3-column Bento layout */
+@media (min-width: 768px){
+  .bento-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 120px 220px 140px 120px;
+    gap: 1.25rem;
+    grid-template-areas:
+      "tl portrait tr"
+      "projects portrait edu"
+      "dig name email"
+      "lang name ornament";
+  }
+  .area-tl{grid-area: tl}
+  .area-tr{grid-area: tr}
+  .area-projects{grid-area: projects}
+  .area-portrait{grid-area: portrait}
+  .area-dig{grid-area: dig}
+  .area-lang{grid-area: lang}
+  .area-edu{grid-area: edu}
+  .area-name{grid-area: name}
+  .area-email{grid-area: email}
+  .area-ornament{grid-area: ornament}
+}
